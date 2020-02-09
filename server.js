@@ -23,8 +23,9 @@ app.use(express.json());
 app.use(cors());
 
 app.get('/', (req,res) => {
-	knex.select('name').from('users')
-		.then(name=>res.json(name))
+	// knex.select('name').from('users')
+	// 	.then(name=>res.json(name))
+  res.send("success");
 });
 app.post('/signin', (req, res) => signin(req, res, bcrypt, knex));
 app.post('/register', (req, res) => register(req, res, bcrypt, knex));

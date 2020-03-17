@@ -2,7 +2,7 @@
 
 Facial recognition application: https://facial-recognition-1.herokuapp.com/
 
-- Application allows users to register/sign in and upload an image so it can detect one face.
+- Application allows users to register, sign in, and upload an image so it can detect a face.
 - Full stack JavaScript application utilizing React, Node, Express, PostgreSQL, Clarifai API.
 - Application is a work in progress.
 
